@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor{
+    height: 100%;
+}
+
+.barrasuperior {
+    position: absolute;
+    width: 100%;
+    height: 44.87px;
+    left: 0px;
+    top: 0px;
+    background: #ABABAB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Patua One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 22.12px;
+}
+
+.contenido{
+    width: 100%;
+    height: 100%;
+}
+
+.cajaLogin {
+    background: #1D1D1D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 300px;
+    top: 16%;
+    left: 25%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 199px;
+    gap: 13px;
+    padding: 46px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 23px;
+    text-indent: 15px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    background-position-y: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btnLogin {
+    background: #ABABAB;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 90px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    min-width: 120px;
+}
+
+a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(255, 255, 255, 0.63);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
